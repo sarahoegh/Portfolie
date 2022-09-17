@@ -1,27 +1,49 @@
 body {
-  background-color: rgb(210, 234, 249);
+  background-color: gainsboro;
 }
 
 /* overskrift h1 design */
 h1{
 font-style: italic;
 }
-h1{
-background-color: rgb(300,300,300)
-    
-}
+
+
 h2{
-background-color: rgb(230, 250, 210 )
+font-style: initial;
+text-align: center;
+table-layout: fixed; 
+letter-spacing: 2px;
+font-size: 22px;
 }
 
 p{
-background-color: rgb(217,254,188)
+background-color: beige;
+font-style: italic;
+text-align: center;
+text-decoration-line:underline;
+font-size: 15px;
 }
-    
+
+li{
+font-style: italic;
+text-align: center;
+table-layout: fixed;
+font-size: 13px;
+}
+   
+h4{
+ background-color: beige;
+font-style: italic;
+text-align: center;
+table-layout: fixed;
+text-decoration-line:underline;
+font-size: 15px;   
+}
+
 div.kasse {
 padding: 50px;
 margin: 10px;
-background: rgb(230, 250, 210);
+background: rgb(190, 212, 233) ;
 border: 2px solid black;
 width: 300px;
 height: 450px;
@@ -31,7 +53,7 @@ font-size: 10px;
 div.kasse1 {
 padding: 50px;
 margin: 10px;
-background: rgb(230, 250, 210);;
+background: rgb(190, 212, 233);;
 border: 2px solid black; 
 width: 310px;
 height: 300px;
@@ -40,41 +62,137 @@ font-size: 10px;
 
 div.kasse2 {
 padding: 50px;
-margin: 10px;
-background: rgb(230, 250, 210);;
+margin: 20px;
+background: rgb(190, 212, 233);;
 border: 2px solid black; 
 width: 310px;
-height: 30px;
-font-size: 10px;
+height: 200px;
+font-size: 11px;
 }
 
 div.kasse3 {
-padding: 10px;
+padding: 15px;
 margin: 10px;
-background: rgb(227, 249, 210);
-border: 2px solid black;
-width: 300px;
-height: 375px;
-    font-size: 10px;}
+background: rgb(190, 212, 233);
+border: 3px solid black;
+width: 575px;
+height: 400px;
+    font-size: 10px;
+border-radius: 50px;}
     
     div.kasse4 {
-padding: 10px;
+padding: 15px;
 margin: 10px;
-background: rgb(227, 249, 210);
-border: 2px solid black;
-width: 300px;
-height: 375px;
+background: rgb(190, 212, 233);
+border: 3px solid black;
+width: 575px;
+height: 400px;
 font-size: 10px;
-position: fixed;
-        top: 69px;
-        left: 400px;
-        
+    position:absolute; 
+left: 625px;   top: 217px;
+border-radius: 50px;       
 }
 
 
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+        left: 400px;    
+}
 
 
+.header {
+  background-color: beige;
+  text-align: center;
+  padding: 10px;
+}
+  
 
 
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
+/* Change color on hover */
+.topnav a:hover {
+  background-color: beige;
+  color: black;
+}
+
+.kasse5  {
+  background-color: gray; /* Green */
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    border-radius: 50px;
+}
+
+    div.kasse6 {
+padding: 10px;
+margin: 10px;
+background: rgb(190, 212, 233);
+border: 2px solid black;
+width: 550px;
+height: 375px;
+font-size: 10px;
+position: relative;
+        left: 0px;   top: -408px;
+
+}
+
+
+.dropbtn {
+  background-color: beige;
+font-family:monospace;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display:flex;
+}
+
+.dropdown-content {
+  display:none;
+  position: absolute;
+  background-color: beige;
+  min-width: 100px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:gray}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
