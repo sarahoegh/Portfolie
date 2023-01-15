@@ -16,6 +16,15 @@ letter-spacing: 2px;
 font-size: 22px;
 }
 
+h10{
+    font-style: initial;
+text-align: center;
+table-layout: fixed; 
+letter-spacing: 2px;
+font-size: 13px;
+}
+
+
 p{
 background-color: beige;
 font-style: italic;
@@ -92,6 +101,16 @@ font-size: 10px;
 left: 625px;   top: 217px;
 border-radius: 50px;       
 }
+
+
+    div.kasse8 {
+padding: 50px;
+margin: 20px;
+background: rgb(190, 212, 233);;
+border: 4px solid black; 
+font-size: 11px;    
+}
+
 
 
 .button {
