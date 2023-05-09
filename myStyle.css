@@ -16,6 +16,15 @@ letter-spacing: 2px;
 font-size: 22px;
 }
 
+h5{
+font-size: 17px;
+}
+
+a{
+font-size: 15px;
+}
+
+
 h10{
     font-style: initial;
 text-align: center;
@@ -24,20 +33,31 @@ letter-spacing: 2px;
 font-size: 13px;
 }
 
+p1{
+font-style: initial;
+text-align: center;
+font-size: 17px;
+}
+
+p2{
+font-style: initial;
+text-align: center;
+font-size: 14.5px;
+}
 
 p{
 background-color: beige;
 font-style: italic;
 text-align: center;
 text-decoration-line:underline;
-font-size: 15px;
+font-size: 16px;
 }
 
 li{
-font-style: italic;
-text-align: center;
+font-style: initial;
+text-align: left;
 table-layout: fixed;
-font-size: 13px;
+font-size: 17px;
 }
    
 h4{
